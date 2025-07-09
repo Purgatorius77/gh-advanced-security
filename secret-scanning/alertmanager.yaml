@@ -16,5 +16,5 @@ receivers:
   - name: 'slack-notifications'
     slack_configs:
       - send_resolved: true
-        channel: '#channel_name'
+        channel: '#channel_name' 
         icon_emjoi: ':warning:'
