@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Schakel versie-updates in voor npm
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+
+  # Schakel versie-updates in voor Maven
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
